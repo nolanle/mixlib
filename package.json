@@ -38,7 +38,7 @@
     "ethereumjs-wallet": "^1.0.2",
     "lodash": "^4.17.21",
     "querystring": "^0.2.1",
-    "tiny-secp256k1": "1.1.6",
+    "tiny-secp256k1": "2.2.1",
     "tronweb": "^5.1.0",
     "uuid": "^9.0.0",
     "web3": "^1.9.0"
