@@ -1,0 +1,7 @@
+{
+  "repositoryUrl": "git@github.com:nolanle/mixlib.git",
+  "preset": "conventionalcommits",
+  "presetConfig": {
+    "issueUrlFormat": "{{host}}/{{owner}}/nolanle/mixlib/issues/{{id}}"
+  }
+}
