@@ -4,8 +4,8 @@ import {AccountBSC, AccountETH} from './chains';
 import {IChainAccount, INetwork} from './types';
 
 export class Account {
-  network: INetwork;
-  account: IChainAccount;
+  private network: INetwork;
+  private account: IChainAccount;
 
   constructor(network: INetwork, xprv: BIP32Interface) {
     this.network = network;
