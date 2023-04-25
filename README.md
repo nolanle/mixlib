@@ -9,13 +9,13 @@
 
 First of all, installation step:
 
-* With npm
+- With npm
 
 ```
 npm install @nolanle/mixlib
 ```
 
-* With yarn
+- With yarn
 
 ```
 yarn add @nolanle/mixlib
@@ -23,7 +23,7 @@ yarn add @nolanle/mixlib
 
 ## Usages
 
-* Generate Master Key and Mnemonic
+- Generate Master Key and Mnemonic
 
 ```
 import {create, Network} from '@nolanle/mixlib;
@@ -36,14 +36,14 @@ const masterKey = await create('Master Key', count);
 console.log(masterKey.mnemonic);
 ```
 
-* Derive master key to accounts
+- Derive master key to accounts
 
 ```
 const network = new Network('Ethereum', 'ETH', 18, 60);
 const ethAccount = masterKey.derive(network);
 ```
 
-* Working with account
+- Working with account
 
 ```
 const address = ethAccount.toAddress();
