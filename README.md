@@ -46,7 +46,7 @@ const ethAccount = masterKey.derive(network);
 * Working with account
 
 ```
-const address = account.toAddress();
-const balance = account.getBalance();
-const privkey = account.toPrivateKey();
+const address = ethAccount.toAddress();
+const balance = ethAccount.getBalance();
+const privkey = ethAccount.toPrivateKey();
 ```
