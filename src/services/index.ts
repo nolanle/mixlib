@@ -1,9 +1,9 @@
 import * as bip39 from 'bip39';
 import {v4 as uuid} from 'uuid';
 
-import {MasterKey} from './MasterKey';
-import {wordsCountToStrength} from './utils';
-import {IMasterKey} from './types';
+import {MasterKey} from '../MasterKey';
+import {wordsCountToStrength} from '../utils';
+import {IMasterKey} from '../types';
 
 /**
  * Create a new masterkey
